@@ -41,7 +41,6 @@ public class DataFetchController {
         new PageReadListener<MobileFoodFacility>(dataList -> {
           for (MobileFoodFacility foodFacility : dataList) {
             list.add(foodFacility);
-            log.info("读取到一条数据{}", foodFacility.toString());
           }
         })).sheet().doRead();
 
