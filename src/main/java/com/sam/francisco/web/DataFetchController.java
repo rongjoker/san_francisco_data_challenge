@@ -38,11 +38,7 @@ public class DataFetchController {
     List<MobileFoodFacility> list = new ArrayList<>();
 
     EasyExcel.read(resource.getInputStream(), MobileFoodFacility.class,
-        new PageReadListener<MobileFoodFacility>(dataList -> {
-          for (MobileFoodFacility foodFacility : dataList) {
-            list.add(foodFacility);
-          }
-        })).sheet().doRead();
+        new PageReadListener<MobileFoodFacility>(list::addAll)).sheet().doRead();
 
     return list;
 
