@@ -4,7 +4,7 @@ build a web application based on spring-boot and easyexcel to read csv file
 
 ## Describe
 
-* Firstly, build a spring-boot program with maven,add dependencies such like spring-boot-web (which can initialize a web application fast)、lombok(which makes code clean)、easyexcel(which read excel or csv file easily) and add add a plugin named spring-boot-maven-plugin which can package a complete jar to run.
+* Firstly, build a spring-boot program with maven,add dependencies such like spring-boot-web (which can initialize a web application fast)、lombok(which makes code clean)、easyexcel(which read excel or csv file easily) and add a plugin named spring-boot-maven-plugin which can package a complete jar to run.
 
 * Then, write the codes:
 1. com.sam.francisco.DataFetchMain.java to start the program 
