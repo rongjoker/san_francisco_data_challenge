@@ -11,4 +11,4 @@ build a web application based on spring-boot and easyexcel to read csv file
 2. com.sam.francisco.entity.MobileFoodFacility to copy the csv titles to a entity 
 3. com.sam.francisco.web.DataFetchController to make it possible to read the csv file to rows and transfer them to a api
 
-* Lastly,clean and package this program, we would get a san_francisco_data_challenge.jar. I put it into the direction named runtime under the resources, you can use the terminal code ``` java -jar san_francisco_data_challenge.jar```, then visit a browser or postman with address [click here](http://localhost:8080/fetch_francisco_data), after that, you can watch whole csv data on the screen.
+* Lastly,clean and package this program, we would get a san_francisco_data_challenge.jar. I put it into the direction named runtime under the resources(absolute path is src/main/resources/runtime/san_francisco_data_challenge.jar), you can use the terminal code ``` java -jar san_francisco_data_challenge.jar```, then visit a browser or postman with address [click here](http://localhost:8080/fetch_francisco_data), after that, you can watch whole csv data on the screen.
